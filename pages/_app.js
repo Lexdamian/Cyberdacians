@@ -25,7 +25,7 @@ export default withRedux(initStore)(
             return (
                 <React.Fragment>
                     <Head>
-                        <title>Mojosa - React Next Landing Page Templates</title>
+                        <title>StageOne</title>
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                         <meta name="description" content="Mojosa - React Next Landing Page Templates" />
                         <meta name="og:title" property="og:title" content="Mojosa - React Next Landing Page Templates"></meta>
