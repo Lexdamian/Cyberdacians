@@ -2018,7 +2018,7 @@
     display: none;
   }
   .navbar-collapse {
-    background-color: var(--templateColor);
+    background-color: var(--templateColor3);
     border: 1px solid #eeeeee;
     margin-top: 15px;
   }
