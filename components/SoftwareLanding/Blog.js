@@ -53,7 +53,7 @@ class Blog extends React.Component {
                         >
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img1.jpg' alt="blog-image" />
                                         </a>
@@ -65,12 +65,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 23, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Most Popular New Business Apps</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>
@@ -79,7 +79,7 @@ class Blog extends React.Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img2.jpg' alt="blog-image" />
                                         </a>
@@ -91,12 +91,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 16, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Best Marketing Management Tools</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>
@@ -105,7 +105,7 @@ class Blog extends React.Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img3.jpg' alt="blog-image" />
                                         </a>
@@ -117,12 +117,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 14, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Best Marketing Management Tools</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>
@@ -131,7 +131,7 @@ class Blog extends React.Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img4.jpg' alt="blog-image" />
                                         </a>
@@ -143,12 +143,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 06, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Best Marketing Management Tools</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>
@@ -157,7 +157,7 @@ class Blog extends React.Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img5.jpg' alt="blog-image" />
                                         </a>
@@ -169,12 +169,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 04, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Best Marketing Management Tools</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>
@@ -183,7 +183,7 @@ class Blog extends React.Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
-                                    <Link href="#">
+                                    <Link href="/blog-details">
                                         <a className="post-image">
                                             <img src='/images/blog-img3.jpg' alt="blog-image" />
                                         </a>
@@ -195,12 +195,12 @@ class Blog extends React.Component {
                                             <li><i className="icofont-wall-clock"></i> January 26, 2019</li>
                                         </ul>
                                         <h3>
-                                            <Link href="#">
+                                            <Link href="/blog-details">
                                                 <a>The Best Marketing Management Tools</a>
                                             </Link>
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                        <Link href="#">
+                                        <Link href="/blog-details">
                                             <a className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </Link>
                                     </div>

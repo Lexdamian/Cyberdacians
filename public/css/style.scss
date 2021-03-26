@@ -4482,7 +4482,7 @@ Blog Details CSS
                    style: italic;
                    weight: 700;
                 }
-                background: var(--templateColor);
+                background: var(--templateColor3);
                 color: var(--whiteColor);
                 border-radius: 5px;
                 padding-top: 19px;
@@ -4501,7 +4501,7 @@ Blog Details CSS
                         margin-right: 5px;
                         margin-bottom: 10px;
                         a {
-                            background: var(--templateColor);
+                            background: var(--templateColor3);
                             color: var(--whiteColor);
                             padding: 5px 15px 3px;
                             display: inline-block;
@@ -4530,7 +4530,7 @@ Blog Details CSS
                 }
                 background: #f4f4f4;
                 padding: 30px;
-                border-left: 4px solid var(--templateColor);
+                border-left: 4px solid var(--templateColor3);
 
                 p {
                     margin-top: 0;
@@ -4557,7 +4557,7 @@ Blog Details CSS
                             &:hover, &:focus {
                                 color: var(--whiteColor);
                                 border-color: var(--templateColor);
-                                background-color: var(--templateColor);
+                                background-color: var(--templateColor3);
                             }
                         }
                     }
@@ -4598,7 +4598,7 @@ Blog Details CSS
                 &:hover, &:focus {
                     color: var(--whiteColor);
                     background: var(--templateColor);
-                    border-color: var(--templateColor);
+                    border-color: var(--templateColor3);
                 }
             }
         }

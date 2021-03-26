@@ -4756,7 +4756,7 @@ Blog Details CSS
   font-size: 25px;
   font-style: italic;
   font-weight: 700;
-  background: var(--templateColor);
+  background: var(--templateColor3);
   color: var(--whiteColor);
   border-radius: 5px;
   padding-top: 19px;
@@ -4781,7 +4781,7 @@ Blog Details CSS
 }
 
 .blog-details-area .blog-details .article-content ul.category li a {
-  background: var(--templateColor);
+  background: var(--templateColor3);
   color: var(--whiteColor);
   padding: 5px 15px 3px;
   display: inline-block;
@@ -4805,7 +4805,7 @@ Blog Details CSS
   margin-top: 20px;
   background: #f4f4f4;
   padding: 30px;
-  border-left: 4px solid var(--templateColor);
+  border-left: 4px solid var(--templateColor3);
 }
 
 .blog-details-area .blog-details .article-content .blockquote p {
@@ -4836,7 +4836,7 @@ Blog Details CSS
 .blog-details-area .blog-details .article-content .share-post ul li a:hover, .blog-details-area .blog-details .article-content .share-post ul li a:focus {
   color: var(--whiteColor);
   border-color: var(--templateColor);
-  background-color: var(--templateColor);
+  background-color: var(--templateColor3);
 }
 
 .blog-details-area .blog-details .article-content ul {
@@ -4875,7 +4875,7 @@ Blog Details CSS
 .blog-details-area .post-controls-buttons div a:hover, .blog-details-area .post-controls-buttons div a:focus {
   color: var(--whiteColor);
   background: var(--templateColor);
-  border-color: var(--templateColor);
+  border-color: var(--templateColor3);
 }
 
 .blog-details-area .post-comments {

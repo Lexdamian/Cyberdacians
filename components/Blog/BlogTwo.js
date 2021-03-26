@@ -10,7 +10,7 @@ class BlogTwo extends Component {
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img1.jpg' alt="blog-image" />
                                         </a>
 
@@ -19,16 +19,16 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 23, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">The Most Popular New Business Apps Landing Page</a></h3>
+                                            <h3><a href="/blog-details">The Most Popular New Business Apps Landing Page</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                            <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
+                                            <a href="/blog-details" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img2.jpg' alt="blog-image" />
                                         </a>
 
@@ -37,16 +37,16 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 16, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">The Best Marketing Management Tools</a></h3>
+                                            <h3><a href="/blog-details">The Best Marketing Management Tools</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                            <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
+                                            <a href="/blog-details" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img3.jpg' alt="blog-image" />
                                         </a>
 
@@ -55,16 +55,16 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 14, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">3 WooCommerce Plugins to Boost Sales</a></h3>
+                                            <h3><a href="/blog-details">3 WooCommerce Plugins to Boost Sales</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                            <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
+                                            <a href="/blog-details" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img4.jpg' alt="blog-image" />
                                         </a>
 
@@ -73,16 +73,16 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 06, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">CakeMail Review – Design Custom Emails</a></h3>
+                                            <h3><a href="/blog-details">CakeMail Review – Design Custom Emails</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                            <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
+                                            <a href="/blog-details" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img5.jpg' alt="blog-image" />
                                         </a>
 
@@ -91,7 +91,7 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 04, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">The Most Popular New Apps in 2019</a></h3>
+                                            <h3><a href="/blog-details">The Most Popular New Apps in 2019</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
                                             <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
@@ -100,7 +100,7 @@ class BlogTwo extends Component {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-blog-post">
-                                        <a href="/#" className="post-image">
+                                        <a href="/blog-details" className="post-image">
                                             <img src='/images/blog-img3.jpg' alt="blog-image" />
                                         </a>
 
@@ -109,9 +109,9 @@ class BlogTwo extends Component {
                                                 <li><i className="icofont-user-male"></i> <a href="/#">Admin</a></li>
                                                 <li><i className="icofont-wall-clock"></i> January 26, 2019</li>
                                             </ul>
-                                            <h3><a href="/#">The Fastest Growing Apps in 2019</a></h3>
+                                            <h3><a href="/blog-details">The Fastest Growing Apps in 2019</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, dapibus nec libero vitae.</p>
-                                            <a href="/#" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
+                                            <a href="/blog-details" className="read-more-btn">Read More <i className="icofont-rounded-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -168,52 +168,52 @@ class BlogTwo extends Component {
                                     <ul>
                                         <li>
                                             <div className="recent-post-thumb">
-                                                <a href="/#">
+                                                <a href="/blog-details">
                                                     <img src='/images/blog-img1.jpg' alt="blog-image" />
                                                 </a>
                                             </div>
 
                                             <div className="recent-post-content">
-                                                <h3><a href="/#">10 Hot Marketing Trends You Need to Implement</a></h3>
+                                                <h3><a href="/blog-details">10 Hot Marketing Trends You Need to Implement</a></h3>
                                                 <span className="date">23 January 2018</span>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div className="recent-post-thumb">
-                                                <a href="/#">
+                                                <a href="/blog-details">
                                                     <img src='/images/blog-img3.jpg' alt="blog-image" />
                                                 </a>
                                             </div>
 
                                             <div className="recent-post-content">
-                                                <h3><a href="/#">10 Hot Marketing Trends You Need to Implement</a></h3>
+                                                <h3><a href="/blog-details">10 Hot Marketing Trends You Need to Implement</a></h3>
                                                 <span className="date">23 January 2018</span>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div className="recent-post-thumb">
-                                                <a href="/#">
+                                                <a href="/blog-details">
                                                     <img src='/images/blog-img2.jpg' alt="blog-image" />
                                                 </a>
                                             </div>
 
                                             <div className="recent-post-content">
-                                                <h3><a href="/#">10 Hot Marketing Trends You Need to Implement</a></h3>
+                                                <h3><a href="/blog-details">10 Hot Marketing Trends You Need to Implement</a></h3>
                                                 <span className="date">23 January 2018</span>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div className="recent-post-thumb">
-                                                <a href="/#">
+                                                <a href="/blog-details">
                                                     <img src='/images/blog-img4.jpg' alt="blog-image" />
                                                 </a>
                                             </div>
 
                                             <div className="recent-post-content">
-                                                <h3><a href="/#">10 Hot Marketing Trends You Need to Implement</a></h3>
+                                                <h3><a href="/blog-details">10 Hot Marketing Trends You Need to Implement</a></h3>
                                                 <span className="date">23 January 2018</span>
                                             </div>
                                         </li>
@@ -241,37 +241,37 @@ class BlogTwo extends Component {
                                     
                                     <ul>
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img1.jpg' alt="image" />
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img2.jpg' alt="image" />
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img3.jpg' alt="image" />
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img4.jpg' alt="image" />
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img5.jpg' alt="image" />
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="/#">
+                                            <a href="/blog-details">
                                                 <img src='/images/work-img6.jpg' alt="image" />
                                             </a>
                                         </li>

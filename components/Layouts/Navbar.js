@@ -64,6 +64,10 @@ class Navbar extends React.Component {
             logo = '/images/StageOneWhite.png';
         }
 
+        const navScheduleStyle = {
+          padding: 15,
+        }
+
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -95,7 +99,6 @@ class Navbar extends React.Component {
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav nav ms-auto">
                                         <li className="nav-item">
-                                            {/* <a className="nav-link" href="/#" onClick={e => e.preventDefault()}>Home</a> */}
                                               <Link activeClassName="active" href="/">
                                                 <a>Home</a>
                                               </Link>
@@ -120,31 +123,8 @@ class Navbar extends React.Component {
                                         </li>
                                         <li className="nav-item">
                                             <Link activeClassName="active" href="#">
-                                                <a>Schedule Demo</a>
+                                                <a className="btn btn-primary nav-link" style={{ width: '95% !important' }}>Schedule Demo</a>
                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="ms-auto others-option">
-                                    <ul className="navbar-nav">
-                                        <li className="header-search-box">
-                                            <Link activeClassName="active" href="/#">
-                                                <a 
-                                                    onClick={e => {e.preventDefault();this.handleSearchForm();}}
-                                                    title="Search"
-                                                >
-                                                    <i className="icofont-search-2"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        
-                                        <li onClick={this.handleDrawer}>
-                                            <div className="side-menu">
-                                                <span className="bar-1"></span>
-                                                <span className="bar-2"></span>
-                                                <span className="bar-3"></span>
-                                            </div>
                                         </li>
                                     </ul>
                                 </div>
