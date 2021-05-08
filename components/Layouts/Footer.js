@@ -13,7 +13,8 @@ class Footer extends React.Component {
                                         <img src='/images/StageOneBlue.png' alt="StageOneBlue" />
                                     </a>
                                 </Link>
-                                <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project individual.</p>
+                                <p>Project developed by:</p>
+                                <a href="https://www.cyberdacians.com" target='_blank'><img src='/images/cyberdacians.png' alt='logo cyber dacians'></img></a>
 
                                 <ul className="social-list">
                                     <li>
@@ -155,7 +156,7 @@ class Footer extends React.Component {
                             <div className="col-lg-6 col-md-6">
                                 <p>Copyright &copy; 2021 Mojosa. All rights reserved</p>
                             </div>
-                            
+
                             <div className="col-lg-6 col-md-6">
                                 <ul>
                                     <li>

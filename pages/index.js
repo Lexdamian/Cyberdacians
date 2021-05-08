@@ -18,7 +18,7 @@ class HomeFive extends React.Component {
                <Features />
                <Overview />
                <CtaCard/>
-               <Blog />
+               {/* <Blog /> */}
                <SaasTools />
                <Footer />
             </React.Fragment>

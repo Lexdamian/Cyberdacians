@@ -22,29 +22,29 @@ class Banner extends Component {
                             <div className="row h-100 justify-content-center align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1>Get more done with the new Crake</h1>
-                                        <p>Our passion to work hard and deliver excellent results. It could solve the needs of your customers and develop innovation.</p>
+                                        <h1>Advanced Persistent Protection - Adversary Emulation & Red Teaming tool</h1>
+                                        <p>We simulate that find weaknesses in organizations  to become secure in front of complex cyberattacks by strengthening their weak spots.</p>
                                         <Link href="#">
                                             <a className="btn btn-primary">Schedule Demo</a>
                                         </Link>
-                                        <Link href="#">
+                                        {/* <Link href="#">
                                             <a
                                                 onClick={e => {e.preventDefault(); this.openModal()}}
                                                 className="video-btn popup-youtube"
-                                            > 
-                                                Product Video 
+                                            >
+                                                Product Video
                                                 <i className="icofont-play-alt-3"></i>
                                             </a>
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
-                                
+
                                 <div className="col-lg-6 col-md-12">
                                     <div className="signup-download ml-5">
                                         <form>
                                             <div className="form-group">
-                                                <label>Username</label>
-                                                <input type="text" className="form-control" placeholder="Enter your username" />
+                                                <label>Name</label>
+                                                <input type="text" className="form-control" placeholder="Enter your name" />
                                             </div>
 
                                             <div className="form-group">
@@ -53,11 +53,11 @@ class Banner extends Component {
                                             </div>
 
                                             <div className="form-group">
-                                                <label>Password</label>
-                                                <input type="password" className="form-control" placeholder="Enter your password" />
+                                                <label>Organisation</label>
+                                                <input type="password" className="form-control" placeholder="Enter your organisation" />
                                             </div>
 
-                                            <button type="submit" className="btn btn-primary">Sign Up</button>
+                                            <button type="submit" className="btn btn-primary">Send a request</button>
                                         </form>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ class Banner extends Component {
                 <div className="shape6"><img src='/images/shape6.png' alt="img" /></div>
                 <div className="shape8 rotateme"><img src='/images/shape8.svg' alt="shape" /></div>
                 <div className="shape9"><img src='/images/shape9.svg' alt="shape" /></div>
-                
+
                 <div className="bubble-animate">
                     <div className="circle small square1"></div>
                     <div className="circle small square2"></div>
@@ -92,11 +92,11 @@ class Banner extends Component {
                     <div className="circle large square4"></div>
                 </div>
             </div>
-            <ModalVideo 
-                channel='youtube' 
-                isOpen={this.state.isOpen} 
-                videoId='szuchBiLrEM' 
-                onClose={() => this.setState({isOpen: false})} 
+            <ModalVideo
+                channel='youtube'
+                isOpen={this.state.isOpen}
+                videoId='szuchBiLrEM'
+                onClose={() => this.setState({isOpen: false})}
             />
             </React.Fragment>
         );

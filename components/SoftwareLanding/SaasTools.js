@@ -24,9 +24,9 @@ class SaasTools extends React.Component {
             <section className="saas-tools ptb-100 bg-gray">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Tools for Everyone</h2>
+                        <h2>Our framework, StageOne, consists of two main components:</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>An implant designed to be infiltrated in the infrastructure and the C2 Panel</p>
                     </div>
 
                     <div className="row">
@@ -45,7 +45,7 @@ class SaasTools extends React.Component {
                                             </a>
                                         </Link>
                                     </li>
-                                    
+
                                     <li
                                         onClick={(e) => this.openTabSection(e, 'tab2')}
                                     >
@@ -53,11 +53,11 @@ class SaasTools extends React.Component {
                                             <a onClick={(e) => e.preventDefault()}>
                                                 <i className="icofont-inbox"></i>
                                                 <br />
-                                                Inbox
+                                                Attack Panel
                                             </a>
                                         </Link>
                                     </li>
-                                    
+
                                     <li
                                         onClick={(e) => this.openTabSection(e, 'tab3')}
                                     >
@@ -65,11 +65,11 @@ class SaasTools extends React.Component {
                                             <a onClick={(e) => e.preventDefault()}>
                                                 <i className="icofont-ui-calendar"></i>
                                                 <br />
-                                                Calendar
+                                                Lateral Movement Panel
                                             </a>
                                         </Link>
                                     </li>
-                                    
+
                                     <li
                                         onClick={(e) => this.openTabSection(e, 'tab4')}
                                     >
@@ -77,11 +77,11 @@ class SaasTools extends React.Component {
                                             <a onClick={(e) => e.preventDefault()}>
                                                 <i className="icofont-copy-invert"></i>
                                                 <br />
-                                                Invoicing
+                                                Logs Panel
                                             </a>
                                         </Link>
                                     </li>
-                                    
+
                                     <li
                                         onClick={(e) => this.openTabSection(e, 'tab5')}
                                     >
@@ -89,7 +89,19 @@ class SaasTools extends React.Component {
                                             <a onClick={(e) => e.preventDefault()}>
                                                 <i className="icofont-wrench"></i>
                                                 <br />
-                                                Reporting
+                                                Collected Data Panel
+                                            </a>
+                                        </Link>
+                                    </li>
+
+                                    <li
+                                        onClick={(e) => this.openTabSection(e, 'tab6')}
+                                    >
+                                        <Link href="#">
+                                            <a onClick={(e) => e.preventDefault()}>
+                                                <i className="icofont-wrench"></i>
+                                                <br />
+                                                Campaing Management
                                             </a>
                                         </Link>
                                     </li>
@@ -101,19 +113,19 @@ class SaasTools extends React.Component {
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_content mt-0">
                                                     <h3>Dashboard</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                                    <ul>
+                                                    <p>Stageone dashboard offers a centralized place to see all the computers and the network map of them. The lateral movement procedure is done via this panel by “breaking into a device.”</p>
+                                                    {/* <ul>
                                                         <li><i className="icofont-ui-check"></i> Creative Design</li>
                                                         <li><i className="icofont-ui-check"></i> Retina Ready</li>
                                                         <li><i className="icofont-ui-check"></i> Modern Design</li>
                                                         <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/features-img1.png' alt="img" />
+                                                    <img src='/images/dashboard-stageone.png' alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -123,20 +135,20 @@ class SaasTools extends React.Component {
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/features-img1.png' alt="img" />
+                                                    <img src='/images/attackpage-stageone.png' alt="img" />
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_content mb-0">
-                                                    <h3>Inbox</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                                    <ul>
+                                                    <h3>Attack Panel</h3>
+                                                    <p>This page offers a comprehensive view over an implant. It displays various general information and configurations and a main view over the recent executed tasks. The collected data panel is at the bottom and offers a great insight into the penetrated device.</p>
+                                                    {/* <ul>
                                                         <li><i className="icofont-ui-check"></i> Creative Design</li>
                                                         <li><i className="icofont-ui-check"></i> Retina Ready</li>
                                                         <li><i className="icofont-ui-check"></i> Modern Design</li>
                                                         <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -146,66 +158,89 @@ class SaasTools extends React.Component {
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_content mt-0">
-                                                    <h3>Calendar</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                                    <ul>
+                                                    <h3>Lateral Movement Panel - Dark mode</h3>
+                                                    <p>The lateral movement popup allows us to move laterally through the network and displays a few options to choose from, such as Credentials and Exploits. After choosing one implant to carry the attack, the penetration is ready to go.</p>
+                                                    {/* <ul>
                                                         <li><i className="icofont-ui-check"></i> Creative Design</li>
                                                         <li><i className="icofont-ui-check"></i> Retina Ready</li>
                                                         <li><i className="icofont-ui-check"></i> Modern Design</li>
                                                         <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/features-img1.png' alt="img" />
+                                                    <img src='/images/lateralpanel-stageone-dark.png' alt="img" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div id="tab4" className="tabs_item">
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/features-img1.png' alt="img" />
+                                                    <img src='/images/logs-stageone.png' alt="img" />
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_content mb-0">
-                                                    <h3>Invoicing</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                                    <ul>
+                                                    <h3>Logs Panel</h3>
+                                                    <p>Logs are always important. StageOne dashboard offers a comprehensive view of what’s going on into the system and keeps track of all the movements of the implant.</p>
+                                                    {/* <ul>
                                                         <li><i className="icofont-ui-check"></i> Creative Design</li>
                                                         <li><i className="icofont-ui-check"></i> Retina Ready</li>
                                                         <li><i className="icofont-ui-check"></i> Modern Design</li>
                                                         <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div id="tab5" className="tabs_item">
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_content mt-0">
-                                                    <h3>Reporting</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                                    <ul>
+                                                    <h3>Collected Data Panel</h3>
+                                                    <p>The collected data page centralizes all the credentials extracted and the keylogging from the systems they were active.</p>
+                                                    {/* <ul>
                                                         <li><i className="icofont-ui-check"></i> Creative Design</li>
                                                         <li><i className="icofont-ui-check"></i> Retina Ready</li>
                                                         <li><i className="icofont-ui-check"></i> Modern Design</li>
                                                         <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/features-img1.png' alt="img" />
+                                                    <img src='/images/collected-data-stageone.png' alt="img" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab6" className="tabs_item">
+                                        <div className="row h-100 justify-content-center align-items-center">
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="tabs_item_content mt-0">
+                                                    <h3>Campaing Management</h3>
+                                                    <p>This is a special page which allows the operator of stageone to configure campaigns and users.</p>
+                                                    {/* <ul>
+                                                        <li><i className="icofont-ui-check"></i> Creative Design</li>
+                                                        <li><i className="icofont-ui-check"></i> Retina Ready</li>
+                                                        <li><i className="icofont-ui-check"></i> Modern Design</li>
+                                                        <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
+                                                    </ul> */}
+                                                </div>
+                                            </div>
+
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="tabs_item_img">
+                                                    <img src='/images/campainmanagement-stageone.png' alt="img" />
                                                 </div>
                                             </div>
                                         </div>

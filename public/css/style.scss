@@ -244,7 +244,7 @@ button {
     from {
         -webkit-transform: translateX(0);
     }
-    to { 
+    to {
         -webkit-transform: translateX(85px);
     }
 }
@@ -252,7 +252,7 @@ button {
     from {
         transform: translateX(0);
     }
-    to { 
+    to {
         transform: translateX(85px);
     }
 }
@@ -481,7 +481,7 @@ Navbar CSS
                                     &:hover {
                                         color: var(--templateColor3) !important;
                                         padding-left: 25px !important;
-                                        
+
                                         &::before {
                                             left: 13px;
                                             opacity: 1;
@@ -491,7 +491,7 @@ Navbar CSS
                                     &.active {
                                         color: var(--templateColor3) !important;
                                         padding-left: 25px !important;
-        
+
                                         &::before {
                                             left: 13px;
                                             opacity: 1;
@@ -677,7 +677,7 @@ Navbar CSS
                 li {
                     a {
                         color: #716c80 !important;
-    
+
                         &::before {
                             background: var(--templateColor);
                         }
@@ -901,10 +901,10 @@ Navbar CSS
                     padding: 0;
                     margin: 0;
                     list-style-type: none;
-    
+
                     li {
                         margin-bottom: 10px;
-    
+
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -916,7 +916,7 @@ Navbar CSS
                             padding-left: 65px;
                             text-transform: uppercase;
                             margin-bottom: 17px;
-    
+
                             i {
                                 position: absolute;
                                 left: 0;
@@ -965,7 +965,7 @@ Navbar CSS
                                 border-radius: 50%;
                                 color: var(--paragraphColor);
                                 border: 1px solid var(--paragraphColor);
-    
+
                                 &:hover, &:focus {
                                     color: var(--whiteColor);
                                     background: var(--templateColor3);
@@ -1031,12 +1031,12 @@ Main Banner CSS
     background: var(--templateColor3);
     position: relative;
     z-index: 1;
-    
+
     .hero-content {
         h1 {
             color: var(--whiteColor);
             font: {
-                size: 60px;
+                size: 35px;
                 weight: 700;
             }
             margin: 0;
@@ -1740,25 +1740,25 @@ Main Banner CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 .rotateme {
     animation-name: rotateme;
@@ -2120,7 +2120,7 @@ Features CSS
             }
             &:hover {
                 transform: translateY(-10px);
-        
+
                 .icon {
                     color: var(--whiteColor);
                     background: var(--templateColor3);
@@ -2359,7 +2359,7 @@ Overview CSS
             padding: 0;
             margin: 15px 0 25px;
             list-style-type: none;
-            
+
             li {
                 color: var(--paragraphColor);
                 padding-left: 18px;
@@ -2563,7 +2563,7 @@ SAAS Tools CSS
 .saas-tools {
     position: relative;
     z-index: 1;
-    
+
     .bubble-animate {
         .circle {
             &.small {
@@ -2581,7 +2581,7 @@ SAAS Tools CSS
     padding: 30px;
     box-shadow: 0 6px 13px 0 rgba(137, 173, 255, 0.35);
     border-radius: 5px;
-    
+
     .tabs {
         list-style-type: none;
         margin-bottom: 30px;
@@ -2605,7 +2605,7 @@ SAAS Tools CSS
                 left: 15px;
             }
             text-align: center;
-       
+
             &:first-child {
                 padding-left: 0;
             }
@@ -2656,7 +2656,7 @@ SAAS Tools CSS
     .tab_content {
         .tabs_item {
             display: none;
-            
+
             &:first-child {
                 display: block;
             }
@@ -2802,7 +2802,7 @@ Fun Facts CSS
             padding: 0;
             margin: 0 0 25px;
             list-style-type: none;
-            
+
             li {
                 color: var(--paragraphColor);
                 padding-left: 18px;
@@ -3232,7 +3232,7 @@ Pricing CSS
 	overflow: hidden;
 	box-shadow: 7px 5px 30px 0 rgba(72,73,121,0.15);
     transition: .4s;
-    
+
     .pricingTable-header {
         padding: 30px 15px 45px;
         background: var(--templateColor);
@@ -3834,7 +3834,7 @@ Team CSS
                 transition: .4s;
                 border: 1px solid #eee;
                 line-height: 1;
-                
+
                 &:hover {
                     color: var(--templateColor3);
                 }
@@ -4058,7 +4058,7 @@ Feedback CSS
         bottom: 30px;
         top: 50px;
     }
-    
+
     .client-info {
         img {
             clip-path: polygon(50% 0%, 38.11% 6.7%, 24.99% 6.72%, 18.06% 18.44%, 6.7% 25%, 6.56% 38.64%, 0% 50%, 6.7% 61.89%, 6.7% 75%, 18.44% 81.94%, 25% 93.3%, 38.64% 93.44%, 50% 100%, 61.88% 93.3%, 75% 93.3%, 81.94% 81.56%, 93.3% 74.9%, 93.44% 61.36%, 100% 50%, 93.3% 38.11%, 93.3% 25%, 81.56% 18.06%, 74.96% 6.7%, 61.36% 6.56%, 50% 0%);
@@ -4191,7 +4191,7 @@ Feedback CSS
                 transition: .4s;
                 border: 1px solid #eee;
                 line-height: 1;
-                
+
                 &:hover {
                     color: var(--templateColor);
                 }
@@ -4272,7 +4272,7 @@ App Download CSS
         height: 100%;
         bottom: 295px;
 
-        img {   
+        img {
             animation: movebounce 5s linear infinite;
             position: absolute;
             left: -75px;
@@ -4285,7 +4285,7 @@ App Download CSS
             }
         }
     }
- 
+
     .col-lg-6, .col-md-12 {
         position: relative;
     }
@@ -4381,7 +4381,7 @@ Blog CSS
                 transition: .4s;
                 border: 1px solid #eee;
                 line-height: 1;
-                
+
                 &:hover {
                     color: var(--templateColor3);
                 }
@@ -4711,7 +4711,7 @@ Boxes CSS
         }
         &:hover {
             transform: translateY(-10px);
-    
+
             .icon {
                 color: var(--whiteColor);
                 background: var(--templateColor3);
@@ -4754,7 +4754,7 @@ Analysis CSS
 	padding: 40px;
 	border-radius: 5px;
     text-align: center;
-    
+
     h3 {
         font: {
             size: 23px;
@@ -4838,19 +4838,19 @@ Partner CSS
         padding: 50px 0 0;
         border: 0;
     }
-    &.marketing-partner {  
+    &.marketing-partner {
         border: {
             bottom: 1px dashed #edf5ff;
             top: 1px dashed #edf5ff;
         }
     }
-    &.software-partner {  
+    &.software-partner {
         border: {
             bottom: 1px dashed #edf5ff;
             top: none;
         }
     }
-    &.startup-partner {  
+    &.startup-partner {
         border: {
             bottom: 1px dashed #edf5ff;
             top: none;
@@ -4945,7 +4945,7 @@ Subscribe CSS
     height: 100%;
     overflow: hidden;
     z-index: -1;
- 
+
     .circle {
         background: var(--templateColor);
         bottom: 0;
@@ -5336,7 +5336,7 @@ Product CSS
                 cursor: pointer;
                 border-radius: 0;
                 transition: .4s;
-                
+
                 &:hover {
                     color: var(--templateColor);
                 }
@@ -5361,7 +5361,7 @@ Product Details CSS
 	background: var(--whiteColor);
 	padding: 30px;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-    
+
     .product-entry-summary {
         h3 {
             font: {
@@ -5461,7 +5461,7 @@ Product Details CSS
                 border-radius: 0;
                 transition: .4s;
                 line-height: 1;
-                
+
                 &:hover {
                     color: var(--templateColor);
                 }
@@ -5671,7 +5671,7 @@ Sidebar CSS
                 .form-control {
                     background: #edf5ff;
                     border-color: transparent;
-                    
+
                     &:focus {
                         border-color: var(--templateColor3);
                     }
@@ -5712,7 +5712,7 @@ Sidebar CSS
             position: relative;
             border-radius: 5px;
             overflow: hidden;
-    
+
             &::before {
                 content: '';
                 position: absolute;
@@ -5954,7 +5954,7 @@ Login CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     padding: 40px;
     border-radius: 5px;
-    
+
     h3 {
         font: {
             size: 23px;
@@ -6012,7 +6012,7 @@ Signup CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     padding: 40px;
     border-radius: 5px;
-    
+
     h3 {
         font: {
             size: 23px;
@@ -6396,13 +6396,13 @@ Cart CSS
         padding: 0;
         margin: 0 0 25px;
         list-style-type: none;
-        
+
         li {
             border: 1px solid #eaedff;
             padding: 10px 15px;
             color: var(--paragraphColor);
             overflow: hidden;
-            
+
             &:first-child {
                 border-bottom: none;
             }
@@ -6505,7 +6505,7 @@ Checkout CSS
         table {
             margin-bottom: 0;
             text-align: left;
-    
+
             thead {
                 tr {
                     th {
@@ -6527,12 +6527,12 @@ Checkout CSS
                         color: var(--paragraphColor);
                         border-color: #eaedff;
                         font-size: 15px;
-    
+
                         &.product-name {
                             a {
                                 color: var(--paragraphColor);
                                 font-weight: 600;
-    
+
                                 &:hover {
                                     color: var(--templateColor);
                                 }
@@ -6659,7 +6659,7 @@ Contact Us CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     background: var(--whiteColor);
     padding: 30px;
-    
+
     .icon {
         display: inline-block;
         width: 80px;
@@ -6867,7 +6867,7 @@ Back To Top CSS
         outline: 0 !important;
         transition: all 0.25s ease-in-out;
         background-color: var(--paragraphColor);
-    
+
         &::before, &::after {
             content: '';
             position: absolute;
@@ -6907,7 +6907,7 @@ Back To Top CSS
     margin-right: 10px;
     text-align: center;
     display: inline-block;
-    position: relative;    
+    position: relative;
 
     span {
         position: absolute;
