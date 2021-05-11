@@ -15,7 +15,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-lock"></i>
+                                    <img src="/images/cyber-attaks.png"></img>
                                 </div>
                                 <h3>Simulate Advanced Cyber Attacks</h3>
                                 <p>Employ in a safe manner Advanced Persistent Threat (APT) techniques in infrastructures to test the response of the security controls.</p>
@@ -25,7 +25,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-heart-eyes"></i>
+                                    <img src="/images/find-vulnerabilities.png"></img>
                                 </div>
                                 <h3>Find and eliminate vulnerabilities</h3>
                                 <p>Identifying breaches in infrastructure that can lead to a cyber attack and offer recommendations on fixing them.</p>
@@ -35,7 +35,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-lock"></i>
+                                    <img src="/images/test-effectivenes.png"></img>
                                 </div>
                                 <h3>Test the effectiveness of the security program</h3>
                                 <p>Put to test the quality of your current cybersecurity investments and observe whether funds are well spent.</p>
@@ -45,7 +45,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-camera"></i>
+                                    <img src="/images/defenses.png"></img>
                                 </div>
                                 <h3>Constantly update the defenses</h3>
                                 <p>Test the new cyber attack strategies employed by APTs to check if your infrastructure can be affected by an attack and constantly update configurations to sustain the attacks</p>
@@ -55,7 +55,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-responsive"></i>
+                                    <img src="/images/test-movement.png"></img>
                                 </div>
                                 <h3>Test the lateral movement in your network</h3>
                                 <p>Find the ways attackers can move through your networks in order to be able to restrict and monitor the movements.</p>
@@ -65,7 +65,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <i className="icofont-hand-drag1"></i>
+                                  <img src="/images/purple-teaming.png"></img>
                                 </div>
                                 <h3>Purple teaming</h3>
                                 <p>Maximize the cyber capabilities through coordination between the red team and the blue team</p>

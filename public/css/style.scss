@@ -1944,6 +1944,10 @@ Features CSS
                 line-height: 65px;
                 font-size: 25px;
             }
+            .icon > img {
+              max-width: 55px;
+              max-height: 55px;
+            }
             &:hover>.icon {
               color: white;
               background-color: var(--templateColor3);
