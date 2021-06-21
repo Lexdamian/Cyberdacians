@@ -6,7 +6,7 @@ class Content extends Component {
         return (
             <section className="contact-info-area ptb-100">
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6">
                             <div className="contact-info-box">
                                 <div className="icon">
@@ -14,10 +14,7 @@ class Content extends Component {
                                 </div>
                                 <h3>Mail Here</h3>
                                 <p>
-                                    <a href="mailto:admin@mojosa.com">admin@mojosa.com</a>
-                                </p>
-                                <p>
-                                    <a href="mailto:info@mojosa.com">info@mojosa.com</a>
+                                    <a href="mailto:felix.staicu@cyberdacians.com ">felix.staicu@cyberdacians.com </a>
                                 </p>
                             </div>
                         </div>
@@ -28,11 +25,11 @@ class Content extends Component {
                                     <i className="icofont-google-map"></i>
                                 </div>
                                 <h3>Visit Here</h3>
-                                <p>1660 Travis Street Miramar, <br /> FL 33025, California</p>
+                                <p>1 Augustin Doinas, <br /> Cluj-Napoca</p>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        {/* <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="contact-info-box">
                                 <div className="icon">
                                     <i className="icofont-phone"></i>
@@ -49,7 +46,7 @@ class Content extends Component {
                                     </Link>
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

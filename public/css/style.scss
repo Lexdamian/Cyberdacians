@@ -355,6 +355,7 @@ Navbar CSS
         }
         ul {
             list-style-type: none;
+            align-items: center;
         }
         .navbar-nav {
             li {
@@ -2097,6 +2098,8 @@ Features CSS
             padding-left: 90px;
             transition: .4s;
 
+
+
             &:last-child {
                 margin-bottom: 0;
             }
@@ -2391,6 +2394,21 @@ Overview CSS
                     bottom: 0;
                 }
 
+                .tooltiptext {
+                    visibility: hidden;
+                    width: 250px;
+                    height: auto;
+                    background-color: var(--templateColor3);
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 6px;
+                    padding: 5px 0;
+
+                    /* Position the tooltip */
+                    position: absolute;
+                    z-index: 999;
+                }
+
                 li {
                     float: left;
                     width: 45%;
@@ -2409,6 +2427,10 @@ Overview CSS
                         left: 15px;
                         top: 16px;
                     }
+                }
+
+                li:hover .tooltiptext {
+                    visibility: visible;
                 }
             }
         }

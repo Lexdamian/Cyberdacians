@@ -1,44 +1,53 @@
 import React from 'react';
 
 class Features extends React.Component {
+    // Function to increase image size
+    enlargeImg(el) {
+        debugger
+        el.style.transform = "scale(1.5)";
+        el.style.transition =
+        "transform 0.25s ease";
+    }
+
     render() {
         return (
             <section className="features-area software-features ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Why did we create StageOne?</h2>
+                        <h2>Strengthening the security posture of your organization</h2>
                         <div className="bar"></div>
-                        <p>Cyber attacks are growing extraordinarily complex and most companies are missing the tools to test if their security can stand up complex attacks.</p>
+                        <p>Cyber attacks are growing extraordinarily complex and the security ecosystems of most companies are not keeping up with the attacks.</p>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <img src="/images/cyber-attaks.png"></img>
+                                    <img src="/images/cyber-attacks.png"></img>
                                 </div>
                                 <h3>Simulate Advanced Cyber Attacks</h3>
-                                <p>Employ in a safe manner Advanced Persistent Threat (APT) techniques in infrastructures to test the response of the security controls.</p>
+                                <p>Employ in a safe manner Advanced Persistent Threat (APT) techniques to test the response of the security controls</p>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <img src="/images/find-vulnerabilities.png"></img>
+                                    <img src="/images/vulnerabilities.png"></img>
                                 </div>
                                 <h3>Find and eliminate vulnerabilities</h3>
-                                <p>Identifying breaches in infrastructure that can lead to a cyber attack and offer recommendations on fixing them.</p>
+                                <p>Identifying breaches in infrastructure that can lead to a cyber attack and offering recommendations on fixing them</p>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <img src="/images/test-effectivenes.png"></img>
+                                    <img src="/images/effectiveness.png"></img>
                                 </div>
                                 <h3>Test the effectiveness of the security program</h3>
-                                <p>Put to test the quality of your current cybersecurity investments and observe whether funds are well spent.</p>
+                                <p>Maximize the effectiveness of your security program</p>
+                                <p>Test the quality of your current cybersecurity investments and get the full benefit of them</p>
                             </div>
                         </div>
 
@@ -55,7 +64,7 @@ class Features extends React.Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div className="icon">
-                                    <img src="/images/test-movement.png"></img>
+                                    <img src="/images/lateral-movement.png"></img>
                                 </div>
                                 <h3>Test the lateral movement in your network</h3>
                                 <p>Find the ways attackers can move through your networks in order to be able to restrict and monitor the movements.</p>
@@ -68,7 +77,7 @@ class Features extends React.Component {
                                   <img src="/images/purple-teaming.png"></img>
                                 </div>
                                 <h3>Purple teaming</h3>
-                                <p>Maximize the cyber capabilities through coordination between the red team and the blue team</p>
+                                <p>Maximize the impact of your cyber capabilities, processes and people through coordination between the red team and the blue team</p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +107,9 @@ class Features extends React.Component {
                 </div>
             </section>
         );
-    }
+    };
+
+
 }
 
 export default Features;

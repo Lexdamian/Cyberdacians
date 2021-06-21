@@ -12,7 +12,7 @@ class CtaCard extends React.Component {
                         </div>
 
                         <div className="col-lg-5 col-md-5 text-right">
-                            <Link href="#">
+                            <Link href="/contact">
                                 <a className="btn btn-primary">Contact us now</a>
                             </Link>
                         </div>

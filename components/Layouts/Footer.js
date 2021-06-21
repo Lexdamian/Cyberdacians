@@ -10,11 +10,11 @@ class Footer extends React.Component {
                             <div className="single-footer-widget">
                                 <Link href="/#">
                                     <a className="logo">
-                                        <img src='/images/StageOneBlue.png' alt="StageOneBlue" />
+                                        <img src='/images/logo-stageone-blue.png' alt="StageOneBlue" />
                                     </a>
                                 </Link>
                                 <p>Project developed by:</p>
-                                <a href="https://www.cyberdacians.com" target='_blank'><img src='/images/cyberdacians.png' alt='logo cyber dacians'></img></a>
+                                <a href="https://www.cyberdacians.com" target='_blank'><img src='/images/cyber-dacians.png' alt='logo cyber dacians'></img></a>
 
                                 <ul className="social-list">
                                     <li>

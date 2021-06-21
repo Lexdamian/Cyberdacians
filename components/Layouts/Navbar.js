@@ -58,10 +58,10 @@ class Navbar extends React.Component {
         let { products } = this.props;
 
         let layOutCls = '';
-        let logo = '/images/StageOneWhite.png';
+        let logo = '/images/logo-white.png';
         if (pathname == '/digital-marketing'){
             layOutCls = 'marketing-navbar';
-            logo = '/images/StageOneWhite.png';
+            logo = '/images/logo-white.png';
         }
 
         const navScheduleStyle = {
@@ -71,7 +71,7 @@ class Navbar extends React.Component {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-        
+
         return (
             <React.Fragment>
                 <header id="header">
@@ -84,13 +84,13 @@ class Navbar extends React.Component {
                                     </a>
                                 </Link>
 
-                                <button 
-                                    onClick={this.toggleNavbar} 
+                                <button
+                                    onClick={this.toggleNavbar}
                                     className={classTwo}
-                                    type="button" 
-                                    data-toggle="collapse" 
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                    aria-expanded="false" 
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
                                     aria-label="Toggle navigation"
                                 >
                                     <span className="navbar-toggler-icon"></span>
@@ -103,12 +103,12 @@ class Navbar extends React.Component {
                                                 <a>Home</a>
                                               </Link>
                                         </li>
-                                        
+
                                         <li className="nav-item">
                                           <Link activeClassName="active" href="/team-one">
                                             <a>Team</a>
                                           </Link>
-                                        </li> 
+                                        </li>
 
                                         <li className="nav-item">
                                           <Link activeClassName="active" href="/blog-two">
@@ -123,13 +123,13 @@ class Navbar extends React.Component {
                                         </li>
                                         <li className="nav-item">
                                             <Link activeClassName="active" href="#">
-                                                <a className="btn btn-primary nav-link" style={{ width: '95% !important' }}>Schedule Demo</a>
+                                                <button className="btn btn-primary" style={{ width: '192px' }}>Schedule Demo</button>
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
-                        </div> 
+                        </div>
                     </div>
                 </header>
 

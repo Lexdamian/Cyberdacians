@@ -6,10 +6,10 @@ class Team extends Component {
         return (
             <section className="team-area ptb-100">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-2 col-md-6">
                             <div className="single-team-member">
-                                <img src='/images/team-img1.jpg' alt="team" />
+                                <img src='/images/mihai-barloiu.jpg' alt="team" />
 
                                 <div className="team-content">
                                     <h3>Mihai Barloiu</h3>
@@ -46,9 +46,9 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="single-team-member">
-                                <img src='/images/team-img2.jpg' alt="team" />
+                                <img src='/images/felix-staicu.jpg' alt="team" />
 
                                 <div className="team-content">
                                     <h3>Felix Staicu</h3>
@@ -83,9 +83,9 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="single-team-member">
-                                <img src='/images/team-img3.jpg' alt="team" />
+                                <img src='/images/tamas-bakos.jpg' alt="team" />
 
                                 <div className="team-content">
                                     <h3>Tamás Bakos</h3>
@@ -121,9 +121,9 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="single-team-member">
-                                <img src='/images/team-img4.jpg' alt="team" />
+                                <img src='/images/paul-barbat.jpg' alt="team" />
 
                                 <div className="team-content">
                                     <h3>Paul Barbat</h3>
@@ -157,9 +157,9 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="single-team-member">
-                                <img src='/images/team-img5.jpg' alt="team" />
+                                <img src='/images/pavel-prodaniuc.jpg' alt="team" />
 
                                 <div className="team-content">
                                     <h3>Pavel Prodaniuc</h3>

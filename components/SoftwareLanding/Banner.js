@@ -22,8 +22,8 @@ class Banner extends Component {
                             <div className="row h-100 justify-content-center align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1>Advanced Persistent Protection - Adversary Emulation & Red Teaming tool</h1>
-                                        <p>We simulate that find weaknesses in organizations  to become secure in front of complex cyberattacks by strengthening their weak spots.</p>
+                                        <h1>Advanced Persistent Protection - Taking Security to the Maximum Level</h1>
+                                        <p>We help organizations to become more secure in face of cyber attacks by reducing risk and exposure</p>
                                         <Link href="#">
                                             <a className="btn btn-primary">Schedule Demo</a>
                                         </Link>
