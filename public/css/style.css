@@ -423,6 +423,9 @@ Navbar CSS
 
 .crake-nav nav ul {
   list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .crake-nav nav .navbar-nav li {
@@ -2615,6 +2618,20 @@ Overview CSS
   margin-bottom: 0;
 }
 
+.overview-box .overview-content ul.features-list .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  height: auto;
+  background-color: var(--templateColor3);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 999;
+}
+
 .overview-box .overview-content ul.features-list li {
   float: left;
   width: 45%;
@@ -2631,6 +2648,10 @@ Overview CSS
 .overview-box .overview-content ul.features-list li::before {
   left: 15px;
   top: 16px;
+}
+
+.overview-box .overview-content ul.features-list li:hover .tooltiptext {
+  visibility: visible;
 }
 
 .overview-box.modern-flexible .single-item {
