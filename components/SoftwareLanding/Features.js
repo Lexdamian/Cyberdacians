@@ -1,13 +1,7 @@
 import React from 'react';
 
 class Features extends React.Component {
-    // Function to increase image size
-    enlargeImg(el) {
-        debugger
-        el.style.transform = "scale(1.5)";
-        el.style.transition =
-        "transform 0.25s ease";
-    }
+
 
     render() {
         return (
