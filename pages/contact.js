@@ -12,7 +12,7 @@ class Contact extends Component {
                 <Navbar />
                 <Banner />
                 <Content />
-                <Form />
+                {/* <Form /> */}
 
                 <Footer />
             </React.Fragment>

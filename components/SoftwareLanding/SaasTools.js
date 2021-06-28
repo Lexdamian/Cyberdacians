@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import ModalImage from 'react-modal-image';
 
 class SaasTools extends React.Component {
 
@@ -24,9 +25,11 @@ class SaasTools extends React.Component {
             <section className="saas-tools ptb-100 bg-gray">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our framework, StageOne, consists of two main components:</h2>
+                        <h2>Improving the resilience of security ecosystems with real world simulation</h2>
                         <div className="bar"></div>
-                        <p>An implant designed to be infiltrated in the infrastructure and the C2 Panel</p>
+                        <h3>StageOne is a framework composed of two structures:</h3>
+                        <p>An implant designed to be infiltrated in the infrastructure</p>
+                        <p>The Command & Control Center which controls the implant</p>
                     </div>
 
                     <div className="row">
@@ -125,7 +128,13 @@ class SaasTools extends React.Component {
 
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/dashboard-stageone.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/dashboard-stageone.png' }
+                                                        medium={'/images/dashboard-stageone.png'}
+                                                        alt='dashboard-overview'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -135,7 +144,13 @@ class SaasTools extends React.Component {
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/attackpage-stageone.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/attackpage-stageone.png' }
+                                                        medium={'/images/attackpage-stageone.png'}
+                                                        alt='attack-page'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
 
@@ -171,7 +186,13 @@ class SaasTools extends React.Component {
 
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/lateralpanel-stageone-dark.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/lateralpanel-stageone-dark.png' }
+                                                        medium={'/images/lateralpanel-stageone-dark.png'}
+                                                        alt='attack-page'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -181,7 +202,13 @@ class SaasTools extends React.Component {
                                         <div className="row h-100 justify-content-center align-items-center">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/logs-stageone.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/logs-stageone.png' }
+                                                        medium={'/images/logs-stageone.png'}
+                                                        alt='logs'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
 
@@ -217,7 +244,13 @@ class SaasTools extends React.Component {
 
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/collected-data-stageone.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/collected-data-stageone.png' }
+                                                        medium={'/images/collected-data-stageone.png'}
+                                                        alt='collected-data-overview'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -240,7 +273,13 @@ class SaasTools extends React.Component {
 
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="tabs_item_img">
-                                                    <img src='/images/campainmanagement-stageone.png' alt="img" />
+                                                    <ModalImage
+                                                        small={'/images/campainmanagement-stageone.png' }
+                                                        medium={'/images/campainmanagement-stageone.png'}
+                                                        alt='campain management'
+                                                        hideDownload={true}
+                                                        hideZoom={true}
+                                                    />
                                                 </div>
                                             </div>
                                         </div>

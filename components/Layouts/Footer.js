@@ -3,9 +3,9 @@ import Link from 'next/link';
 class Footer extends React.Component {
     render() {
         return (
-            <footer className="footer-area ptb-100 pb-0 bg-image">
+            <footer className="footer-area pt-20 pb-20 bg-image">
                 <div className="container">
-                    <div className="row">
+                    <div className="row h-50 align-items-center">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
                                 <Link href="/#">
@@ -14,7 +14,6 @@ class Footer extends React.Component {
                                     </a>
                                 </Link>
                                 <p>Project developed by:</p>
-                                <a href="https://www.cyberdacians.com" target='_blank'><img src='/images/cyber-dacians.png' alt='logo cyber dacians'></img></a>
 
                                 <ul className="social-list">
                                     <li>
@@ -42,6 +41,10 @@ class Footer extends React.Component {
                         </div>
 
                         <div className="col-lg-3 col-md-6">
+                            <a href="https://www.cyberdacians.com" target='_blank'><img src='/images/cyber-dacians.png' alt='logo cyber dacians'></img></a>
+                        </div>
+
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget pl-5">
                                 <h3>Company</h3>
 
@@ -146,13 +149,13 @@ class Footer extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
                 <div className="copyright-area">
                     <div className="container">
-                        <div className="row h-100 justify-content-center align-items-center">
+                        <div className="row h-25 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p>Copyright &copy; 2021 Mojosa. All rights reserved</p>
                             </div>

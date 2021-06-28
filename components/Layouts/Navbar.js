@@ -110,22 +110,22 @@ class Navbar extends React.Component {
                                           </Link>
                                         </li>
 
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                           <Link activeClassName="active" href="/blog-two">
                                             <a>Blog</a>
                                           </Link>
-                                        </li>
+                                        </li> */}
 
                                         <li className="nav-item">
                                             <Link activeClassName="active" href="/contact">
                                                 <a className="nav-link">Contact</a>
                                             </Link>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link activeClassName="active" href="#">
                                                 <button className="btn btn-primary" style={{ width: '192px' }}>Schedule Demo</button>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </nav>

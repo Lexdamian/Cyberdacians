@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import ModalVideo from 'react-modal-video';
+import ModalImage from "react-modal-image";
 
 class Banner extends Component {
 
@@ -24,8 +24,8 @@ class Banner extends Component {
                                     <div className="hero-content">
                                         <h1>Advanced Persistent Protection - Taking Security to the Maximum Level</h1>
                                         <p>We help organizations to become more secure in face of cyber attacks by reducing risk and exposure</p>
-                                        <Link href="#">
-                                            <a className="btn btn-primary">Schedule Demo</a>
+                                        <Link href="/contact">
+                                            <a className="btn btn-primary">Contact Us</a>
                                         </Link>
                                         {/* <Link href="#">
                                             <a
@@ -40,7 +40,7 @@ class Banner extends Component {
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
-                                    <div className="signup-download ml-5">
+                                    {/* <div className="signup-download ml-5">
                                         <form>
                                             <div className="form-group">
                                                 <label>Name</label>
@@ -59,7 +59,19 @@ class Banner extends Component {
 
                                             <button type="submit" className="btn btn-primary">Send a request</button>
                                         </form>
-                                    </div>
+                                    </div> */}
+                                    {/* <Link href="#" >
+                                        <a className="image-btn" onClick={e => {e.preventDefault(); this.openModal()}}>
+                                            <img src='/images/overview-stageon.png' alt="overview-stageone" />
+                                        </a>
+                                    </Link> */}
+                                    <ModalImage
+                                        small={'/images/overview-stageon.png' }
+                                        medium={'/images/overview-stageon.png' }
+                                        alt='stageone-overview'
+                                        hideDownload={true}
+                                        hideZoom={true}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -92,12 +104,6 @@ class Banner extends Component {
                     <div className="circle large square4"></div>
                 </div>
             </div>
-            <ModalVideo
-                channel='youtube'
-                isOpen={this.state.isOpen}
-                videoId='szuchBiLrEM'
-                onClose={() => this.setState({isOpen: false})}
-            />
             </React.Fragment>
         );
     }

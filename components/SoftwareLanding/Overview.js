@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ModalImage from 'react-modal-image';
 
 class Overview extends Component {
     render() {
@@ -9,7 +10,13 @@ class Overview extends Component {
                     <div className="overview-box">
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-6 overview-img">
-                                <img src='/images/overview-stageon.png' alt="image" />
+                                <ModalImage
+                                    small={'/images/overview-stageon.png' }
+                                    medium={'/images/overview-stageon.png' }
+                                    alt='stageone-overview'
+                                    hideDownload={true}
+                                    hideZoom={true}
+                                />
                             </div>
 
                             <div className="col-lg-6 col-md-6 overview-content">
@@ -54,7 +61,13 @@ class Overview extends Component {
                             </div>
 
                             <div className="col-lg-6 col-md-6 overview-img">
-                                <img src='/images/overview-stageone2.png' alt="image" />
+                                <ModalImage
+                                    small={'/images/overview-stageone2.png' }
+                                    medium={'/images/overview-stageone2.png' }
+                                    alt='stageone-overview'
+                                    hideDownload={true}
+                                    hideZoom={true}
+                                />
                             </div>
                         </div>
                     </div>

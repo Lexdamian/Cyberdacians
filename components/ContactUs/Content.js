@@ -14,12 +14,12 @@ class Content extends Component {
                                 </div>
                                 <h3>Mail Here</h3>
                                 <p>
-                                    <a href="mailto:felix.staicu@cyberdacians.com ">felix.staicu@cyberdacians.com </a>
+                                    <a href="mailto:felix.staicu@cyberdacians.com ">felix.staicu[@]cyberdacians.com </a>
                                 </p>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="contact-info-box">
                                 <div className="icon">
                                     <i className="icofont-google-map"></i>
@@ -27,7 +27,7 @@ class Content extends Component {
                                 <h3>Visit Here</h3>
                                 <p>1 Augustin Doinas, <br /> Cluj-Napoca</p>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="contact-info-box">
