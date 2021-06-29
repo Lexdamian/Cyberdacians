@@ -6,7 +6,6 @@ import CtaCard from '../components/SoftwareLanding/CtaCard';
 import Features from '../components/SoftwareLanding/Features';
 import Overview from '../components/SoftwareLanding/Overview';
 import SaasTools from '../components/SoftwareLanding/SaasTools';
-import Blog from '../components/SoftwareLanding/Blog';
 
 
 class HomeFive extends React.Component {
@@ -18,7 +17,6 @@ class HomeFive extends React.Component {
                <Features />
                <Overview />
                <CtaCard/>
-               {/* <Blog /> */}
                <SaasTools />
                <Footer />
             </React.Fragment>

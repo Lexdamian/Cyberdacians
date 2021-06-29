@@ -117,12 +117,6 @@ class SaasTools extends React.Component {
                                                 <div className="tabs_item_content mt-0">
                                                     <h3>Dashboard</h3>
                                                     <p>Stageone dashboard offers a centralized place to see all the computers and the network map of them. The lateral movement procedure is done via this panel by “breaking into a device.”</p>
-                                                    {/* <ul>
-                                                        <li><i className="icofont-ui-check"></i> Creative Design</li>
-                                                        <li><i className="icofont-ui-check"></i> Retina Ready</li>
-                                                        <li><i className="icofont-ui-check"></i> Modern Design</li>
-                                                        <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul> */}
                                                 </div>
                                             </div>
 
@@ -134,6 +128,7 @@ class SaasTools extends React.Component {
                                                         alt='dashboard-overview'
                                                         hideDownload={true}
                                                         hideZoom={true}
+                                                        style={{ zIndex: 999 }}
                                                     />
                                                 </div>
                                             </div>
@@ -262,12 +257,6 @@ class SaasTools extends React.Component {
                                                 <div className="tabs_item_content mt-0">
                                                     <h3>Campaing Management</h3>
                                                     <p>This is a special page which allows the operator of stageone to configure campaigns and users.</p>
-                                                    {/* <ul>
-                                                        <li><i className="icofont-ui-check"></i> Creative Design</li>
-                                                        <li><i className="icofont-ui-check"></i> Retina Ready</li>
-                                                        <li><i className="icofont-ui-check"></i> Modern Design</li>
-                                                        <li><i className="icofont-ui-check"></i> Digital Marketing & Branding</li>
-                                                    </ul> */}
                                                 </div>
                                             </div>
 

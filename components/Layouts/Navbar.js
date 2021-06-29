@@ -2,37 +2,17 @@ import React from 'react';
 import { withRouter } from 'next/router';
 import { connect } from 'react-redux'
 import Link from '../../utils/ActiveLink';
-import SideDrawer from './SideDrawer';
-import SearchForm from './SearchForm';
 
 class Navbar extends React.Component {
     _isMounted = false;
 
     state = {
-        drawer: false,
-        searchForm: false,
         collapsed: true,
     };
 
     toggleNavbar = () => {
         this.setState({
             collapsed: !this.state.collapsed,
-        });
-    }
-
-    handleDrawer = () => {
-        this.setState( prevState => {
-            return {
-                drawer: !prevState.drawer
-            };
-        });
-    }
-
-    handleSearchForm = () => {
-        this.setState( prevState => {
-            return {
-                searchForm: !prevState.searchForm
-            };
         });
     }
 
@@ -133,8 +113,6 @@ class Navbar extends React.Component {
                     </div>
                 </header>
 
-                {this.state.drawer ? <SideDrawer onClick={this.handleDrawer} /> : ''}
-                {this.state.searchForm ? <SearchForm onClick={this.handleSearchForm} /> : ''}
             </React.Fragment>
         );
     }

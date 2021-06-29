@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "node server.js -p $PORT",
-        "build": "next build",
+        "build": "next build && next export",
         "start": "NODE_ENV=production node server.js -p $PORT"
     },
     "keywords": [
@@ -28,7 +28,7 @@
         "react-countup": "^4.3.3",
         "react-dom": "^16.14.0",
         "react-image-lightbox": "^5.1.0",
-        "react-modal-image": "^2.0.0",
+        "react-modal-image": "^2.5.0",
         "react-modal-video": "^1.2.6",
         "react-no-ssr": "^1.1.0",
         "react-owl-carousel3": "^2.2.5",
